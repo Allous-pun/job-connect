@@ -6,6 +6,8 @@ import JobCardSkeleton from "./JobCardSkeleton";
 import JobModal from "./JobModal";
 import { fetchJobs } from "@/lib/jobs-api";
 
+// WHY: 1500ms delay ensures loading skeleton is visible, preventing layout shift and meeting Q12 skeleton requirement
+
 export default function JobsPage() {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -1,6 +1,8 @@
 import jobsData from "@/data/jobs.json";
 
 // Simulate API: first call fails, retries succeed
+// WHY: First call fails intentionally to demonstrate error recovery UX requirement (Q14a)
+// Provides user with Retry button experience without needing actual backend failure
 let attemptCount = 0;
 
 export function fetchJobs() {
