@@ -130,7 +130,7 @@ export default function JobsPage() {
             </div>
             <div>
               <label htmlFor="maxBudget" className="mb-1 block text-xs font-medium text-slate-600">
-                Max budget (USD)
+                Max budget (Ksh)
               </label>
               <input
                 id="maxBudget"
