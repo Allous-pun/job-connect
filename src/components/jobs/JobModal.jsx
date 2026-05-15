@@ -209,7 +209,7 @@ export default function JobModal({ job, onClose }) {
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label htmlFor="proposedBudget" className="block text-sm font-medium text-slate-700">
-                      Proposed budget (USD) <span className="text-rose-600">*</span>
+                      Proposed budget (Ksh) <span className="text-rose-600">*</span>
                     </label>
                     <input
                       id="proposedBudget"
