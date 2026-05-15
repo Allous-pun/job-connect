@@ -10,5 +10,5 @@ export function formatRelativeDate(isoDate) {
 }
 
 export function formatBudget(value) {
-  return `$${value.toLocaleString()}`;
+  return `Ksh ${value.toLocaleString()}`;
 }
